@@ -8,7 +8,7 @@ const productsController = require('../../controllers/v1/productsController');
 
 router.get('/', productsController.getProducts);
 router.post('/create', productsController.createNew);
-router.delete('/delete/:id', productsController.deleteOne);
+router.delete('/:id', productsController.deleteOne);
 router.post('/:id/updateQuantity', productsController.updateQuantity);
 
 /* exporting router */
