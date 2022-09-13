@@ -7,7 +7,8 @@ Setup in local system for usage :
     1.  Install Mongo DB server.
     2.  Install node js.
     3.  Copy code in your local machine (there shouldn't be any change in directory structure in main folder).
-    4.  use command  "node index.js" to start server and use postman or any other frontend framework to use API.
+    4.  Install all the dependecies using npm install "Dependency" mentioned in package.json.
+    5.  use command  "node index.js" to start server and use postman or any other frontend framework to use API.
 
 
 Usage:
